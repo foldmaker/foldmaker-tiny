@@ -1,5 +1,5 @@
 # foldmaker-tiny
-This is a reduced version of [Foldmaker](https://github.com/foldmaker/foldmaker) that only exposes `Foldmaker` and `tokenize` functions, and `f` class. Great for figuring out how Foldmaker works, since core utilities are `tokenize` function and `parse` method. The aim is to see how tiny Foldmaker's algorithm can be. FoldmakerObject class (`f` in this case), only has `parse`, `_replace`, `add` methods. These methods are oftenly adequate for tree generation. This version is escpecially great for figuring out how Foldmaker works, since core utilities are `tokenize` function and `parse` method.
+This is a reduced version of [Foldmaker](https://github.com/foldmaker/foldmaker) that only exposes `Foldmaker` and `tokenize` functions, and `f` class. Great for figuring out how Foldmaker works, since core utilities are `tokenize` function and `parse` method. The aim is to see how tiny Foldmaker's algorithm can be. FoldmakerObject class (`f` in this case), only has `parse`, `_replace`, `add` methods. These methods are oftenly adequate for tree generation. 
 
 ### Differences from the main version:
 
